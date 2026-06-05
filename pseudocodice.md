@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-13. Hai registrato le tue spese giornaliere in ordine cronologico; invertilo per vedere l'ultima spesa effettuata in cima alla lista.
+14. Prima di aggiungere un amico sui social, controlla se il suo nickname è già presente nella tua lista di contatti bloccati.
