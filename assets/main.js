@@ -1,8 +1,7 @@
 console.log("script caricato");
 
-const partecipanti = ["Marco", "Giulia", "Luca", "Sofia", "Alessandro", "Martina"];
-console.log(partecipanti);
+const spese = [100, 400, 200, 50, 60, 300, 600];
+console.log(spese);
 
-const ritiro = prompt("inserisci il nome del partecipante ritirato")
-partecipanti.splice(partecipanti.indexOf(ritiro), 1)
-console.log(partecipanti);
+spese.reverse();
+console.log(spese);
