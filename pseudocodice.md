@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-22. Trova la posizione del giorno della settimana in cui è caduto il tuo compleanno quest'anno.
+21. Gestisci una fila di pazienti in sala d'attesa; quando il dottore chiama il primo paziente, rimuovilo dalla lista.

@@ -1,12 +1,12 @@
 console.log("script caricato");
 
-const giorni = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"];
-console.log(giorni);
+const pazienti = ["Marco", "Giulia", "Luca", "Sofia", "Alessandro", "Martina"];
+console.log(pazienti);
 console.log("");
 
-const compleanno = prompt("che giorno della settimana cade/è caduto il tuo compleanno quest'anno?");
-
-console.log("indice del giorno nell'array", giorni.indexOf(compleanno));
+const chiamata = prompt("premi invio per chiamare il primo ed eliminarlo dalla lista");
+pazienti.shift()
+console.log("nuova lista pazienti", pazienti);
 
 
 
