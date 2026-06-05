@@ -1,15 +1,17 @@
 console.log("script caricato");
 
 
-prodotti = ["pane", "latte", "uova", "mele", "arance"]
-quant = [4, 0, 10, 5, 6]
+const studenti = ["luca", "marco", "alessia", "giovanni", "lucrezia"]
+const voti = [8, 3, 6, 5, 10];
 
-for (let i = 0; i < prodotti.length; i++) {
-    if (quant[i] < 5) {
-        console.log("le scorte di", prodotti[i], "sono basse", quant[i]);
+for (let i = 0; i < studenti.length; i++) {
+    if (voti[i] > 5) {
+        console.log("il voto di", studenti[i], "è sufficente", voti[i]);
 
-    } else if (quant === 0) {
-        console.log("le scote di", prodotti[i], "sono usaurite", quant[i]);
-
+    } else {
+        console.log("il voto di", studenti[i], "è insufficente", voti[i]);
     }
+
 }
+
+

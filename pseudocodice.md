@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-1. Dato un array di prodotti e uno di quantità, stampa se il prodotto è esaurito o se le scorte sono basse.
+2. Dati i voti e i nomi degli studenti, stampa chi ha la sufficienza e chi no.
