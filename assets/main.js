@@ -1,11 +1,8 @@
 console.log("script caricato");
 
-const ToDoList = ["compiti", "spesa", "allenamento", "cucinare", "Alessandro", "visita"];
-console.log(ToDoList);
+const pacchi = ["pacco 1", "pacco 2", "pacco 3", "pacco 4", "pacco 5", "pacco 6"];
+console.log(pacchi);
 console.log("");
 
-const attività = prompt("inserisci una nuova attività");
-ToDoList.push(attività);
-console.log(ToDoList);
-
-
+pacchi.pop();
+console.log("lista pacchi aggiornata", pacchi);

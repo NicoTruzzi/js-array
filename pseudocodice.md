@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-23. Stai sviluppando una "To-Do List": dato un array di task già presenti, chiedi all'utente di aggiungere una nuova attività.
+24. In un magazzino, gli ultimi scatoloni arrivati sono i primi ad essere spediti. Il magazziniere spedisce un pacco, stampa la lista aggiornata
