@@ -1,17 +1,21 @@
 console.log("script caricato");
 
+const carrozze = [2, 0, 4, 7, 12, 8];
 
-const studenti = ["luca", "marco", "alessia", "giovanni", "lucrezia"]
-const voti = [8, 3, 6, 5, 10];
-
-for (let i = 0; i < studenti.length; i++) {
-    if (voti[i] > 5) {
-        console.log("il voto di", studenti[i], "è sufficente", voti[i]);
-
-    } else {
-        console.log("il voto di", studenti[i], "è insufficente", voti[i]);
+const persone = prompt("quante persone siete?");
+let posti = true;
+for (let i = 0; i < carrozze.length; i++) {
+    if (persone <= carrozze[i]) {
+        let c = i + 1;
+        console.log("la carrozza numero", c, "ha capienza sufficente");
+        posti = false;
+        break;
     }
 
 }
+if (posti = true) {
 
 
+    console.log("non ci sono abbastanza posti nelle carrozze");
+
+}
