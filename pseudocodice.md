@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-17. Alla cassa del supermercato, il primo cliente della fila viene servito e se ne va; rimuovilo della coda per far avanzare gli altri.
+16. Devi inizializzare il report mensile per il mese successivo; imposta temporaneamente tutti i valori a "N/D".

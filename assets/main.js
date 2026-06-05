@@ -4,5 +4,5 @@ const clienti = ["cliente 1", "cliente 2", "cliente 3", "cliente 4", "cliente 5"
 console.log(clienti);
 console.log("");
 
-clienti.shift();
+clienti.fill(null);
 console.log(clienti);
