@@ -1,9 +1,12 @@
 console.log("script caricato");
 
-const ingredienti = ["pasta", "uova", "guanciale", "pecorino", "pepe"];
-console.log(ingredienti);
+const giorni = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"];
+console.log(giorni);
 console.log("");
 
-console.log("gli ingredienti della carbonara sono");
+const compleanno = prompt("che giorno della settimana cade/è caduto il tuo compleanno quest'anno?");
 
-console.log(ingredienti.join(", "));
+console.log("indice del giorno nell'array", giorni.indexOf(compleanno));
+
+
+

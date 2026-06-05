@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-20. In un'app di ricette, hai gli ingredienti in un array; stampali in modo leggibile nella descrizione del piatto.
+22. Trova la posizione del giorno della settimana in cui è caduto il tuo compleanno quest'anno.
