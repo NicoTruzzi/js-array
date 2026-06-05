@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-9. In un parcheggio numerato, l'utente cerca la sua auto; trova la posizione (indice) del suo numero di targa.
+10. Devi generare un codice CSV da inviare al server; trasforma un array in una stringa con i valori separati da ",".
