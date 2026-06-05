@@ -1,21 +1,8 @@
 console.log("script caricato");
 
-const turni = ["mattina", "pomeriggio", "notte", "mattina", "pomeriggio", "notte", "mattina"]
-mattina = 0;
-pomeriggio = 0;
-notte = 0;
-console.log(turni);
+const targhe = ["ZT918LM", "PV847RC", "DK126SJ", "XN450WF", "HB972QA", "TU318ME", "GL605ZX", "WR289CN", "FS741JP", "KC534LD", "NM860RV", "BQ217XT", "VD493HS", "JP708MK", "LX152FG"];
+console.log(targhe);
 
-for (let i = 0; i < turni.length; i++) {
-    if (turni[i] === "mattina") {
-        mattina++;
-    } else if (turni[i] === "pomeriggio") {
-        pomeriggio++;
-    } else {
-        notte++;
-    }
-}
-console.log("");
-console.log("nel turno di mattina lavorano", mattina, "infermieri");
-console.log("nel turno di pomeriggio lavorano", pomeriggio, "infermieri");
-console.log("nel turno di notte lavorano", notte, "infermieri");
+const targaUt = prompt("inserisci la targa della tua macchina");
+
+console.log("la tua macchina si trova al parcheggio numerato N", targhe.indexOf(targaUt));
