@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-3. Dati i posti liberi per carrozza [2, 0, 4, 7, 12, 8], chiedi all'utente il numero di passeggeri del gruppo e assegna loro la prima carrozza che ha capienza sufficiente, stampando il numero della carrozza scelta.
+4. Date le temperature settimanali, trova il valore massimo, il minimo e calcola la media aritmetica delle sette giornate.

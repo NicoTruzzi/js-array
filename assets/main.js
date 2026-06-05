@@ -1,21 +1,21 @@
 console.log("script caricato");
 
-const carrozze = [2, 0, 4, 7, 12, 8];
-
-const persone = prompt("quante persone siete?");
-let posti = true;
-for (let i = 0; i < carrozze.length; i++) {
-    if (persone <= carrozze[i]) {
-        let c = i + 1;
-        console.log("la carrozza numero", c, "ha capienza sufficente");
-        posti = false;
-        break;
+const temperature = [20, 25, 23, 30, 27, 21, 29];
+let tempmax = 0;
+let tempmin = 100;
+let mediatemp = 0;
+for (let i = 0; i < temperature.length; i++) {
+    if (temperature[i] > tempmax) {
+        tempmax = temperature[i];
     }
-
+    if (temperature[i] < tempmin) {
+        tempmin = temperature[i];
+    }
+    mediatemp = mediatemp + temperature[i];
 }
-if (posti = true) {
+console.log("la temperatura massima è", tempmax);
+console.log("la temperatura minima è", tempmin);
+console.log("la temperatura media è", mediatemp / temperature.length);
 
 
-    console.log("non ci sono abbastanza posti nelle carrozze");
 
-}
