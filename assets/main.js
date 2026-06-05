@@ -1,12 +1,11 @@
 console.log("script caricato");
 
-const priority = ["priorità 1", "priorità 2", "priorità 3"];
-console.log(priority);
+const azioni = ["elemento 1", "elemento 2", "elemento 3", "elemento 4"];
+console.log(azioni);
 console.log("");
 
-
-console.log("questa è la nuova lista di priorità lavorative");
-priority.unshift("priorità 0");
-console.log(priority);
+azioni.reverse();
+azioni.shift();
+console.log("nuova lista di azioni", azioni);
 
 
