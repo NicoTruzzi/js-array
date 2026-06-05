@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-10. Devi generare un codice CSV da inviare al server; trasforma un array in una stringa con i valori separati da ",".
+11. Stai usando un browser web, clicchi il pulsante "Indietro" che ti riporta alla pagina precedente; rimuovi l'ultima URL visitata dallo storico di navigazione.
