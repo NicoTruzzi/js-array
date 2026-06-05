@@ -1,45 +1,21 @@
 console.log("script caricato");
 
-const atleti = ["Antonio", "Bruno", "Carlo", "Diego", "Emanuel"];
-const punteggi = [78, 93, 86, 91, 82];
-let primo = 0;
-let secondo = 0;
-let terzo = 0;
-console.log(atleti);
-console.log(punteggi);
+const turni = ["mattina", "pomeriggio", "notte", "mattina", "pomeriggio", "notte", "mattina"]
+mattina = 0;
+pomeriggio = 0;
+notte = 0;
+console.log(turni);
 
-
-
-for (let i = 0; i < punteggi.length; i++) {
-    if (punteggi[i] > primo) {
-        primo = punteggi[i];
-    }
-
-}
-for (let i = 0; i < punteggi.length; i++) {
-    if (punteggi[i] > secondo && punteggi[i] < primo) {
-        secondo = punteggi[i];
+for (let i = 0; i < turni.length; i++) {
+    if (turni[i] === "mattina") {
+        mattina++;
+    } else if (turni[i] === "pomeriggio") {
+        pomeriggio++;
+    } else {
+        notte++;
     }
 }
-
-for (let i = 0; i < punteggi.length; i++) {
-    if (punteggi[i] > terzo && punteggi[i] < secondo) {
-        terzo = punteggi[i];
-    }
-}
-
-
-for (let i = 0; i < atleti.length; i++) {
-    if (primo === punteggi[i]) {
-        console.log(atleti[i], "medaglia d'oro");
-
-    }
-    if (secondo === punteggi[i]) {
-        console.log(atleti[i], "medaglia d'argento");
-
-    }
-    if (terzo === punteggi[i]) {
-        console.log(atleti[i], "medaglia di bronzo");
-
-    }
-}
+console.log("");
+console.log("nel turno di mattina lavorano", mattina, "infermieri");
+console.log("nel turno di pomeriggio lavorano", pomeriggio, "infermieri");
+console.log("nel turno di notte lavorano", notte, "infermieri");
