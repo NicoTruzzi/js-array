@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-19. Sei il buttafuori di un locale VIP: arriva un ospite importante che deve saltare la fila; inserisci il suo nome all'inizio della lista d'ingresso.
+20. In un'app di ricette, hai gli ingredienti in un array; stampali in modo leggibile nella descrizione del piatto.

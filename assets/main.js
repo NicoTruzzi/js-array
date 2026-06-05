@@ -1,11 +1,9 @@
 console.log("script caricato");
 
-const vip = ["Marco", "Giulia", "Luca", "Sofia", "Alessandro", "Martina"];
-console.log(vip);
+const ingredienti = ["pasta", "uova", "guanciale", "pecorino", "pepe"];
+console.log(ingredienti);
 console.log("");
 
+console.log("gli ingredienti della carbonara sono");
 
-const nome = prompt("nome ospite importante");
-vip.unshift(nome);
-console.log(vip);
-
+console.log(ingredienti.join(", "));
