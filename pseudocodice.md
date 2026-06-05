@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-11. Stai usando un browser web, clicchi il pulsante "Indietro" che ti riporta alla pagina precedente; rimuovi l'ultima URL visitata dallo storico di navigazione.
+12. Un partecipante si ritira da una gara a metà percorso; rimuovi il suo nome dall'array della classifica mantenendo l'ordine degli altri.

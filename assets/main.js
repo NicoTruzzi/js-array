@@ -1,6 +1,8 @@
 console.log("script caricato");
 
-const urls = ["google.com", "youtube.com", "amazon.com", "netflix.it"];
-console.log(urls);
-urls.pop()
-console.log(urls);
+const partecipanti = ["Marco", "Giulia", "Luca", "Sofia", "Alessandro", "Martina"];
+console.log(partecipanti);
+
+const ritiro = prompt("inserisci il nome del partecipante ritirato")
+partecipanti.splice(partecipanti.indexOf(ritiro), 1)
+console.log(partecipanti);
