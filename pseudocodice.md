@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-18. Da un estratto conto bancario, estrai solo le ultime 10 transazioni effettuate.
+19. Sei il buttafuori di un locale VIP: arriva un ospite importante che deve saltare la fila; inserisci il suo nome all'inizio della lista d'ingresso.
