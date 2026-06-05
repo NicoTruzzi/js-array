@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-4. Date le temperature settimanali, trova il valore massimo, il minimo e calcola la media aritmetica delle sette giornate.
+5. Data la lista VIP per una serata, verifica se l'utente X è presente nella lista VIP o se è nella lista standard.
