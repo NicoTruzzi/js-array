@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-6. Date le ore lavorative giornaliere [40, 35, 45, 38, 42] e una paga base di 15€/ora, calcola lo stipendio totale settimanale applicando una maggiorazione di 5€ per ogni ora straordinaria oltre le 40 giornaliere.
+7. Dati gli atleti ["Antonio", "Bruno", "Carlo", "Diego", "Emanuel"] e i relativi punteggi [78, 93, 86, 91, 82], determina chi ha ottenuto il punteggio più alto, il secondo e il terzo più alto per assegnare rispettivamente oro, argento e bronzo.
