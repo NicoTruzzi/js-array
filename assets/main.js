@@ -1,8 +1,8 @@
 console.log("script caricato");
 
-const chat = ["ciao", "come stai?", "usciamo sabato?"];
-console.log(chat);
+const clienti = ["cliente 1", "cliente 2", "cliente 3", "cliente 4", "cliente 5", "cliente 5"];
+console.log(clienti);
 console.log("");
-let messaggio = prompt("ultimo messaggio della chat");
-chat.push(messaggio);
-console.log(chat);
+
+clienti.shift();
+console.log(clienti);
