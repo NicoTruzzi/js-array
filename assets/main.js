@@ -1,16 +1,8 @@
 console.log("script caricato");
 
-const amici = ["Marco", "Giulia", "Luca", "Sofia", "Alessandro", "Martina"];
-const bloccati = ["Francesca", "Matteo", "Elena", "Davide", "Chiara", "Gabriele"];
-console.log(amici);
-console.log(bloccati);
+const chat = ["ciao", "come stai?", "usciamo sabato?"];
+console.log(chat);
 console.log("");
-
-const nome = prompt("inserisci il nome dell'amico da aggiungere");
-
-if (bloccati.includes(nome)) {
-
-} else {
-    amici.push(nome)
-}
-console.log("nuova lista amici", amici);
+let messaggio = prompt("ultimo messaggio della chat");
+chat.push(messaggio);
+console.log(chat);
