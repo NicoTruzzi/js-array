@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-25. Nella classifica di Serie A, prendi le squadre che giocheranno l'Europa League (dal 5° all'8° posto in classifica)
+26. Hai una lista di priorità lavorative; il capo ti assegna un'emergenza da fare subito: inseriscila come primo elemento dell'array e stampa la lista.
