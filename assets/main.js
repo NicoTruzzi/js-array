@@ -1,8 +1,8 @@
 console.log("script caricato");
 
-const pacchi = ["pacco 1", "pacco 2", "pacco 3", "pacco 4", "pacco 5", "pacco 6"];
-console.log(pacchi);
+const classifica = ["Inter", "Napoli", "Roma", "Como", "Milan", "Juventus", "Atalanta", "Bologna", "Lazio", "Udinese", "Sassuolo", "Torino", "Parma", "Cagliari", "Fiorentina", "Genoa", "Lecce", "Cremonese", "Hellas Verona", "Pisa"];
+console.log(classifica);
 console.log("");
 
-pacchi.pop();
-console.log("lista pacchi aggiornata", pacchi);
+
+console.log("le squadre che faranno l'europa league sono", classifica.splice(4, 2));
