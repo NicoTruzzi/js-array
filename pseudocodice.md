@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-28. In un menu digitale, verifica se un ingrediente specifico è presente nella lista degli allergeni di un piatto.
+29. Devi inserire una pubblicità dopo la terza notizia nel feed di un giornale online; inserisci l'elemento pubblicitario nella posizione corretta senza sovrascrivere nulla.

@@ -1,28 +1,7 @@
 console.log("script caricato");
 
-const menu = ["piatto 1", "piatto 2", "piatto 3", "piatto 4"];
-const allergeni = [
-    ["arachidi", "miele"],
-    ["uova", "senape", "pesce"],
-    ["crostacei"],
-    ["grano", "sedano", "nocciole", "pistacchi"]
-];
-console.log(menu);
-console.log(allergeni);
-console.log("");
-let piatto = prompt("scegli un piatto");
+const notizie = ["notizia 1", "notizia 2", "notizia 3", "notizia 4"];
+console.log(notizie);
 
-let allergene = prompt("scegli un allergene");
-for (let i = 0; i < menu.length; i++) {
-    if (piatto === menu[i]) {
-        for (let j = 0; j < allergeni[i].length; j++) {
-            if (allergeni[j].includes(allergene)) {
-                console.log(allergene, "è nella lista degli allergeni del piatto scelto");
-
-            }
-        }
-
-    }
-}
-
-
+notizie.splice(3, 0, "publicità");
+console.log(notizie);
