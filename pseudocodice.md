@@ -1,3 +1,3 @@
 # ESERCIZIO
 
-21. Gestisci una fila di pazienti in sala d'attesa; quando il dottore chiama il primo paziente, rimuovilo dalla lista.
+23. Stai sviluppando una "To-Do List": dato un array di task già presenti, chiedi all'utente di aggiungere una nuova attività.

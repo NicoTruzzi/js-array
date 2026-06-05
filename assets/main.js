@@ -1,12 +1,11 @@
 console.log("script caricato");
 
-const pazienti = ["Marco", "Giulia", "Luca", "Sofia", "Alessandro", "Martina"];
-console.log(pazienti);
+const ToDoList = ["compiti", "spesa", "allenamento", "cucinare", "Alessandro", "visita"];
+console.log(ToDoList);
 console.log("");
 
-const chiamata = prompt("premi invio per chiamare il primo ed eliminarlo dalla lista");
-pazienti.shift()
-console.log("nuova lista pazienti", pazienti);
-
+const attività = prompt("inserisci una nuova attività");
+ToDoList.push(attività);
+console.log(ToDoList);
 
 
